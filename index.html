@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Tournafest</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="head">
+        <div class="row">
+            <img src="images/logo.png" alt="Tournafest" class="headlogo" />
+        </div>
+        <div>RECEIPT</div>
+    </div>
+
+    <div class="addressbox">
+        <div class="addresscolLeft">
+            <div class="addresshead" id="senderTitle">{senderName}</div> <!-- sender title - (Given By, From)  -->
+            <div class="addressname" id="senderName">{senderTitle}</div> <!-- sender Name - (Trangy) -->
+            <div class="addresstext">{senderAddress}</div> <!--sender address  -->
+            <div class="addresstext" id="senderEmail">{senderEmail}</div> <!-- sender email -->
+            <div class="addresstext" id="senderPhone">{senderPhone}</div> <!-- sender phone  -->
+            <div class="addresshead3">Date & Time</div>
+            <div class="addresstext" id="senderDate">{date}</div> <!-- date -->
+        </div>
+        <div class="addresscolRight">
+            <div class="addresshead">{recieverTitle}</div> <!-- reciever title  - (Billed To, To)-->
+            <div class="addressname">{recieverName}</div> <!-- reciever Name-->
+            <div class="addresshead2">Billing Address</div>
+            <div class="addresstext">{recieverAddress}</div> <!-- reciever address -->
+
+            <div class="addresstext">{recieverEmail}</div> <!-- reciever email  -->
+            <div class="addresstext">{recieverPhone}</div> <!-- reciever phone -->
+        </div>
+    </div>
+
+    <div class="billbox">
+        <div class="billrow">
+            <div class="billhead">Description</div>
+            <div class="billhead">Amount</div>
+        </div>
+        <div class="billitems">
+
+            <div class="billrow">
+                <div class="billcolLeft">
+                    <div class="billname">{itemTitle}</div> <!-- item Title - (Subscriptiom purchase) -->
+                    <div class="billtext">{itemDescription}</div> <!--item description - (subscription name)  -->
+                </div>
+                <div class="billcolRight">
+                    <div class="billname">{itemAmount}</div> <!-- item Amount -(₹400) -->
+                </div>
+            </div>
+        </div>
+        <div class="billrow2">
+
+            <div class="billrow">
+                <div class="billname">{extraItem1}</div> <!-- extraItem1 - (Bank Charges) -->
+                <div class="billname2">{extraItem1_amount}</div> <!-- extraItem1 amount- (₹400) -->
+            </div>
+
+            <div class="billrow">
+                <div class="billname">{extraItem2}</div> <!-- extraItem2 - (Bank Charges) -->
+                <div class="billname2">{extraItem2_amount}</div> <!-- extraItem2 amount- (₹400) -->
+            </div>
+
+            <div class="billrow">
+                <div class="billname">{extraItem3}</div> <!-- extraItem3 - (Bank Charges) -->
+                <div class="billname2">{extraItem3_amount}</div> <!-- extraItem3 amount- (₹400) -->
+            </div>
+
+            <div class="billrow">
+                <div class="billname">{extraItem4}</div> <!-- extraItem4 - (Bank Charges) -->
+                <div class="billname2">{extraItem4_amount}</div> <!-- extraItem4 amount- (₹400) -->
+            </div>
+
+            <div class="billrow">
+                <div class="billname">{extraItem5}</div> <!-- extraItem5 - (Bank Charges) -->
+                <div class="billname2">{extraItem5_amount}</div> <!-- extraItem5 amount- (₹400) -->
+            </div>
+
+            <div class="billtotal">
+                <div class="billname">Total</div>
+                <div class="billname3">{totalAmount}</div><!--total Amount  -->
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="disclaimer">Note: This is a computer generated recipt and does not require physical signature.</div>
+    </div>
+
+</body>
+
+</html>
