@@ -1,0 +1,186 @@
+body {
+    background-color: #24252E;
+    padding: 40px 5%;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 0.4px solid #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.headlogo {
+    height: 28px;
+    width: 167px;
+    margin-right: 5px;
+}
+
+.addressbox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-bottom: 60px;
+    border-bottom: 0.5px solid #8459BA;
+}
+
+.addresscolLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    width: 40%;
+    text-align: left;
+}
+
+.addresscolRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 40%;
+    text-align: right;
+}
+
+.addresshead {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.addresshead2 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+.addresshead3 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.addressname {
+    margin: 9px 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.addresstext {
+    margin-top: 6px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.billrow {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.billrow2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.billitems {
+    border-bottom: 0.5px solid #535353;
+    padding-bottom: 8px;
+}
+
+.billhead {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.billcolLeft {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    text-align: left;
+}
+
+.billcolRight {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    text-align: right;
+}
+
+.billname {
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.billname2 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+
+.billname3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.billtext {
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 5px;
+}
+
+.billtotal {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2A2B37;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 50px;
+    left:5%;
+    border-top: 0.5px solid #8459BA;
+    padding-top: 13px;
+    width: 90%;
+}
+
+.disclaimer{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
